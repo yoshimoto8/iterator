@@ -1,4 +1,4 @@
-interface Iterator {
+export interface Iterator {
   hasNext(): boolean;
   next(): Object;
 }
